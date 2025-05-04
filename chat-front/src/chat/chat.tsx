@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "./chat.css";
 import SendImg from "./../assets/send.svg";
 
-const apiUrl = `${import.meta.env.BASE_URL}:${import.meta.env.PORT}`;
+const apiUrl = `${import.meta.env.VITE_API_URL}`;
 
 interface ChatProps {
 	onResponse: (message: { text: string; sender: "user" | "ai" }) => void;
