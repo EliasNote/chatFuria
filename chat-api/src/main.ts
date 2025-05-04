@@ -9,6 +9,7 @@ async function bootstrap() {
       'http://localhost:5173',
       'http://localhost:5174',
       'https://chatfuria-j6xx.onrender.com',
+      'https://eliasnote.github.io/chatFuria/',
     ],
     methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',
     allowedHeaders: 'Content-Type,Authorization',
