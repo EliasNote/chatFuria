@@ -113,7 +113,3 @@ Acesse a aplicação em: [http://localhost:5173/chatFuria/](http://localhost:517
 ### 📦 Deploy
 
 🌐 Confira a versão pública em: [Chat Furia 🚀](https://eliasnote.github.io/chatFuria/)
-
-```
-
-```
