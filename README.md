@@ -108,14 +108,12 @@ VITE_API_URL=http://localhost:8080
   npm run dev
   ```
 
-Acesse a aplicação em: `http://localhost:5173`
+Acesse a aplicação em: [http://localhost:5173/chatFuria/](http://localhost:5173/chatFuria/)
 
-📦 Deploy
-🌐 Confira a versão pública em: [Data Furia 🚀](https://eliasnote.github.io/chatFuria/)
+### 📦 Deploy
 
----
+🌐 Confira a versão pública em: [Chat Furia 🚀](https://eliasnote.github.io/chatFuria/)
 
-<p align="center">
-  Desenvolvido por <strong>EliasNote</strong>
-</p>
-````
+```
+
+```
