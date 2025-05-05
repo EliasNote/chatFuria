@@ -71,7 +71,7 @@ Ambos os projetos foram desenvolvidos para cumprir este desafio, oferecendo:
    # ou yarn install
    ```
 
-### Configuração de Variáveis de Ambiente
+### 🔑 Configuração de Variáveis de Ambiente
 
 Crie um arquivo `.env` na pasta `chat-api` com:
 
@@ -83,9 +83,17 @@ GEMINI_API_MODEL=your_model_here
 gemini-2.5-pro-exp-03-25
 ```
 
+Crie um arquivo `.env` na pasta `chat-front` com:
+
+```
+VITE_API_URL=http://localhost:8080
+# Para produção / deploy:
+# VITE_API_URL=https://chatfuria-j6xx.onrender.com
+```
+
 ### Execução
 
-- **API:**  
+- **API:**
   Para iniciar a API em modo de desenvolvimento:
 
   ```bash
@@ -93,7 +101,7 @@ gemini-2.5-pro-exp-03-25
   npm run start:dev
   ```
 
-- **Frontend:**  
+- **Frontend:**
   Para iniciar o frontend:
   ```bash
   cd chat-front
@@ -102,8 +110,12 @@ gemini-2.5-pro-exp-03-25
 
 Acesse a aplicação em: `http://localhost:5173`
 
+📦 Deploy
+🌐 Confira a versão pública em: [Data Furia 🚀](https://eliasnote.github.io/chatFuria/)
+
 ---
 
 <p align="center">
   Desenvolvido por <strong>EliasNote</strong>
 </p>
+````
