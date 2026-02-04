@@ -1,10 +1,15 @@
 #content {
-	width: 700px;
+	max-width: 700px;
+	width: 90%;
 	word-wrap: break-word;
 	color: white;
-	font-size: 16px;
-	padding: 0 20px;
-	margin-bottom: 162px;
+	font-size: 14px;
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+	justify-content: center;
+	margin: 0 10px;
+	margin-bottom: 152px;
 }
 
 #container {
@@ -13,12 +18,14 @@
 	justify-content: center;
 }
 
-.message {
-	margin: 20px 0;
-}
-
 .message.user p {
 	margin: 0;
+}
+
+#produtos {
+	display: flex;
+	flex-direction: column;
+	gap: 40px;
 }
 
 .message.user {
@@ -29,4 +36,28 @@
 	background-color: white;
 	color: black;
 	border-radius: 10px;
+}
+
+.produto {
+	max-width: 220px;
+	display: flex;
+	flex-direction: column;
+	gap: 8px;
+}
+
+.produto img {
+	border-radius: 5px;
+}
+
+.produto button {
+	margin: 0 auto;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 3px;
+	cursor: pointer;
+	background-color: white;
+}
+
+.produto button:hover {
+	background-color: rgb(146, 146, 146);
 }
